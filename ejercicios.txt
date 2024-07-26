@@ -1,0 +1,418 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+>> syms a b c d
+>> sqrt((4)*(16))
+
+ans =
+
+     8
+
+>> sqrt((25)*(36))
+
+ans =
+
+    30
+
+>> sqrt((144)*(25))
+
+ans =
+
+    60
+
+>> nthroot((8)*(27)*(125))
+Not enough input arguments.
+
+Error in nthroot (line 15)
+if ~isreal(x) || ~isreal(n)
+ 
+>> nthtoot((8)*(27)*(125),3)
+Unrecognized function or variable 'nthtoot'.
+ 
+Did you mean:
+>> nthroot((8)*(27)*(125),3)
+
+ans =
+
+    30
+
+>> nthroot((a^3)*(b^3),3)
+ 
+ans =
+ 
+nthroot(a^3*b^3, 3)
+ 
+>> nthroot((a^3)*(b^3)*(c^6)*(d^3),3)
+ 
+ans =
+ 
+nthroot(a^3*b^3*c^6*d^3, 3)
+ 
+>> 
+>> sqrt(4a^2)+sqrt(9a^2)+sqrt(25a^)
+ sqrt(4a^2)+sqrt(9a^2)+sqrt(25a^)
+       ↑
+Invalid expression. Check for missing multiplication
+operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of
+parentheses.
+ 
+>> sqrt(4a^2)+sqrt(9a^2)+sqrt(25a^2)
+ sqrt(4a^2)+sqrt(9a^2)+sqrt(25a^2)
+       ↑
+Invalid expression. Check for missing multiplication
+operator, missing or unbalanced delimiters, or other syntax
+error. To construct matrices, use brackets instead of
+parentheses.
+ 
+Did you mean:
+>> sqrt(4*a^2)+sqrt(9*a^2)+sqrt(25*a^2)
+ 
+ans =
+ 
+10*(a^2)^(1/2)
+ 
+>> sqrt(-8)+sqrt(16)+sqrt(-27)+sqrt(25)
+
+ans =
+
+   9.0000 + 8.0246i
+
+>> 2*sqrt(49*a^2)+sqrt(25*b^2)-2*nthroot(216*a^3)-nthroot(64*b^3)
+Error using sym/nthroot (line 1)
+Invalid argument list. Function requires 1 more input(s).
+ 
+>> 
+>> 2*sqrt(49*a^2)+sqrt(25*b^2)-2*nthroot(216*a^3,3)-nthroot(64*b^3,3)
+ 
+ans =
+ 
+14*(a^2)^(1/2) + 5*(b^2)^(1/2) - 2*nthroot(216*a^3, 3) - nthroot(64*b^3, 3)
+ 
+>> sqrt((a^2-2*a*b+b^2)*((a+b)^2))
+ 
+ans =
+ 
+((a + b)^2*(a^2 - 2*a*b + b^2))^(1/2)
+ 
+>> sqrt(4*a)
+ 
+ans =
+ 
+2*a^(1/2)
+ 
+>> nthroot(27*a,3)
+ 
+ans =
+ 
+nthroot(27*a, 3)
+ 
+>> nthroot(24,3)
+
+ans =
+
+    2.8845
+
+>> sqrt(75)
+
+ans =
+
+    8.6603
+
+>> nthroot(24,3)
+
+ans =
+
+    2.8845
+
+>> sqrt(8)+sqrt(2)+sqrt(338)+sqrt(288)
+
+ans =
+
+   39.5980
+
+>> sqrt(5)+sqrt(20)+sqrt(125)+sqrt(2645)
+
+ans =
+
+   69.3181
+
+>> 2*sqrt(3)+sqrt(243)*sqrt(75)+sqrt(192)
+
+ans =
+
+  152.3205
+
+>> 2*sqrt(3)+sqrt(243)*sqrt(75)+sqrt(192)+sqrt(507)
+
+ans =
+
+  174.8372
+
+>> 3*sqrt(8)-2*sqrt(32)+7*sqrt(50)-6*sqrt(162)+9*sqrt(98)+7*sqrt(242)-sqrt(2)
+
+ans =
+
+  166.8772
+
+>> sqrt(2)*sqrt(16)
+
+ans =
+
+    5.6569
+
+>> sqrt(50)*sqrt(2)
+
+ans =
+
+   10.0000
+
+>> sqrt(3)*sqrt(27)
+
+ans =
+
+     9
+
+>> sqrt(6)*sqrt(24)
+
+ans =
+
+   12.0000
+
+>> nthroot(3,3)*nthroot(9,3)
+
+ans =
+
+     3
+
+>> nthroot(16,3)*nthroot(4,3)
+
+ans =
+
+     4
+
+>> nthroot(5,3)*nthroot(125,3)
+
+ans =
+
+    8.5499
+
+>> sqrt(3*a)*sqrt(12*a)
+ 
+ans =
+ 
+6*a
+ 
+>> 3*sqrt(18)+5*sqrt(72)-sqrt(288)+4*sqrt(50)
+
+ans =
+
+   66.4680
+
+>> sqrt(3)+sqrt(243)+sqrt(75)+sqrt(192)+sqrt(507)
+
+ans =
+
+   62.3538
+
+>> 3*sqrt(8)+2*sqrt(32)+7*sqrt(50)-6*sqrt(162)+9*sqrt(98)+7*sqrt(242)
+
+ans =
+
+  190.9188
+
+>> sqrt(5)+sqrt(20)+sqrt(125)+sqrt(1445)
+
+ans =
+
+   55.9017
+
+>> sqrt(2)+sqrt(8)+sqrt(288)+sqrt(388)
+
+ans =
+
+   40.9109
+
+>> sqrt(sqrt(625))
+
+ans =
+
+     5
+
+>> sqrt(nthroot(729,3))
+
+ans =
+
+     3
+
+>> nthroot(sqrt(a),4)
+ 
+ans =
+ 
+nthroot(a^(1/2), 4)
+ 
+>> nthroot(sqrt(49),1/2)
+
+ans =
+
+    49
+
+>> nthroot(nthroot(16,6),1/3)
+
+ans =
+
+    4.0000
+
+>> sqrt(2*sqrt(2*sqrt(2)))
+
+ans =
+
+    1.8340
+
+>> sqrt(a*sqrt(a*sqrt(a)))
+ 
+ans =
+ 
+(a*(a^(3/2))^(1/2))^(1/2)
+ 
+>> sqrt(3*sqrt(3*sqrt(3)))
+
+ans =
+
+    2.6151
+
+>> sqrt(196)
+
+ans =
+
+    14
+
+>> nthroot(216,3)
+
+ans =
+
+     6
+
+>> nthroot(64/27,3)
+
+ans =
+
+    1.3333
+
+>> nthroot(729/1000,3)
+
+ans =
+
+    0.9000
+
+>> nthroot(512/8,3)
+
+ans =
+
+     4
+
+>> nthroot(1/243,5)
+
+ans =
+
+    0.3333
+
+>> nthroot(1/81,4)
+
+ans =
+
+    0.3333
+
+>> nthroot(64/729,6)
+
+ans =
+
+    0.6667
+
+>> nthroot(-27,3)
+
+ans =
+
+    -3
+
+>> nthroot(-32,5)
+
+ans =
+
+    -2
+
+>> nthroot(-0.00032,5)
+
+ans =
+
+   -0.2000
+
+>> nthroot(-125/216,3)
+
+ans =
+
+   -0.8333
+
+>> nthroot(-0)
+Not enough input arguments.
+
+Error in nthroot (line 15)
+if ~isreal(x) || ~isreal(n)
+ 
+>> nthroot(-0.0064,3)
+
+ans =
+
+   -0.1857
+
+>> sqrt(3)*sqrt(5)
+
+ans =
+
+    3.8730
+
+>> 2*a*sqrt(a^b)*3*3*c*sqrt(a^1-b)
+ 
+ans =
+ 
+18*a*c*(a^b)^(1/2)*(a - b)^(1/2)
+ 
+>> sqrt(a)*sqrt(5*b)
+ 
+ans =
+ 
+5^(1/2)*a^(1/2)*b^(1/2)
+ 
+>> sqrt(4/3)*sqrt(1/2)
+
+ans =
+
+    0.8165
+
+>> sqrt(2+sqrt(2))+sqrt(2-sqrt(2))
+
+ans =
+
+    2.6131
+
+>> sqrt(a^2-b^2)*sqrt(1/a-b)
+ 
+ans =
+ 
+(a^2 - b^2)^(1/2)*(1/a - b)^(1/2)
+ 
+>> (sqrt(a)-b^)2
+ (sqrt(a)-b^)2
+            ↑
+Invalid expression. When calling a function or indexing a
+variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+ 
+>> (sqrt(a)-b^)2
+ (sqrt(a)-b^)2
+            ↑
+Invalid expression. When calling a function or indexing a
+variable, use parentheses. Otherwise, check for mismatched
+delimiters.
+ 
+>> sqrt(a)-b^2
